@@ -59,8 +59,8 @@ def take_backup(src_file_name,
   
             print("Backup Successful!") 
         except FileNotFoundError: 
-            print("File does not exists!,\ 
-            please give the complete path") 
+            print("File does not exists!, ")
+            # please give the complete path
       
     # When we need to backup the folders only... 
     except PermissionError:   
